@@ -1,0 +1,7 @@
+{
+    "Produto":{
+        "nome":"computador",
+        "preco":1.249,
+        "desconto":0.15
+    }
+}
