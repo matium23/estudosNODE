@@ -1,11 +1,14 @@
+// versao resumida
 let pessoas = new Promise(resolve => resolve("roberto"))
-pessoas.then(pessoa => console.log(pessoa))
+pessoas.then(console.log)
 
 
 
-
-let p = new Promise(function(cumprirPromessa){
+// versao completa
+let p = new Promise(function(resolve){
     cumprirPromessa(3)
 })
 
-p.then(console.log)
+p.then(function(valor){
+    console.log(valor)
+})
